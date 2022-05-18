@@ -13,4 +13,4 @@ public:
 	void replace(const string &s1 , const string &s2);
 
 	friend ostream & operator << (ostream &out , const lexicon &l);
-}
+};
