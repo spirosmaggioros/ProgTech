@@ -6,4 +6,5 @@ public:
 	Graph(int V);
 	~Graph();
 	void addEdge(int x , int y);
+	bool cycle(vector<int> &path) const;
 };
